@@ -50,7 +50,7 @@ curl -X POST http://localhost:8080/auction \
 #### 2. Listando leilões ativos
 
 ```bash
-curl -X GET http://localhost:8080/auction
+curl -X GET http://localhost:8080/auction?status=0
 ```
 
 #### 3. Verificando o fechamento automático
